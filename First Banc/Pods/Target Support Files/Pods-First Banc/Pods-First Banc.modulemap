@@ -1,0 +1,6 @@
+framework module Pods_First_Banc {
+  umbrella header "Pods-First Banc-umbrella.h"
+
+  export *
+  module * { export * }
+}

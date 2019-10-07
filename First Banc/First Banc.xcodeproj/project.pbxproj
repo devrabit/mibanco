@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0442CC13950371CA1B9C87C3 /* Pods_First_Banc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1641DB18FE38A5A78BBD7CB /* Pods_First_Banc.framework */; };
+		8812DAE2234BAC1D00003569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812DAE1234BAC1D00003569 /* AppDelegate.swift */; };
+		8812DAE4234BAC1D00003569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812DAE3234BAC1D00003569 /* ViewController.swift */; };
+		8812DAE7234BAC1D00003569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8812DAE5234BAC1D00003569 /* Main.storyboard */; };
+		8812DAE9234BAC1F00003569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8812DAE8234BAC1F00003569 /* Assets.xcassets */; };
+		8812DAEC234BAC1F00003569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8812DAEA234BAC1F00003569 /* LaunchScreen.storyboard */; };
+		8812DAF7234BAC1F00003569 /* First_BancTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812DAF6234BAC1F00003569 /* First_BancTests.swift */; };
+		8812DB02234BAC1F00003569 /* First_BancUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812DB01234BAC1F00003569 /* First_BancUITests.swift */; };
+		8812DB15234BD3E200003569 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8812DB14234BD3E200003569 /* Login.storyboard */; };
+		8812DB17234BD41300003569 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812DB16234BD41300003569 /* LoginViewController.swift */; };
+		8812DB19234BD43D00003569 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812DB18234BD43D00003569 /* LoginViewModel.swift */; };
+		8812DB1F234BF91600003569 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8812DB1E234BF91600003569 /* Home.storyboard */; };
+		8812DB21234BF99200003569 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812DB20234BF99200003569 /* HomeViewController.swift */; };
+		8812DB23234BFA5B00003569 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812DB22234BFA5B00003569 /* HomeViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8812DAF3234BAC1F00003569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8812DAD6234BAC1D00003569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8812DADD234BAC1D00003569;
+			remoteInfo = "First Banc";
+		};
+		8812DAFE234BAC1F00003569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8812DAD6234BAC1D00003569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8812DADD234BAC1D00003569;
+			remoteInfo = "First Banc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FDE85749169A5CCF1658CD7 /* Pods-First Banc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First Banc.release.xcconfig"; path = "Target Support Files/Pods-First Banc/Pods-First Banc.release.xcconfig"; sourceTree = "<group>"; };
+		8812DADE234BAC1D00003569 /* First Banc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Banc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8812DAE1234BAC1D00003569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8812DAE3234BAC1D00003569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8812DAE6234BAC1D00003569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8812DAE8234BAC1F00003569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8812DAEB234BAC1F00003569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8812DAED234BAC1F00003569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8812DAF2234BAC1F00003569 /* First BancTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First BancTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8812DAF6234BAC1F00003569 /* First_BancTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_BancTests.swift; sourceTree = "<group>"; };
+		8812DAF8234BAC1F00003569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8812DAFD234BAC1F00003569 /* First BancUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First BancUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8812DB01234BAC1F00003569 /* First_BancUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_BancUITests.swift; sourceTree = "<group>"; };
+		8812DB03234BAC1F00003569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8812DB14234BD3E200003569 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		8812DB16234BD41300003569 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8812DB18234BD43D00003569 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8812DB1E234BF91600003569 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		8812DB20234BF99200003569 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8812DB22234BFA5B00003569 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		943491E54D53436CBE0CA6A0 /* Pods-First Banc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First Banc.debug.xcconfig"; path = "Target Support Files/Pods-First Banc/Pods-First Banc.debug.xcconfig"; sourceTree = "<group>"; };
+		D1641DB18FE38A5A78BBD7CB /* Pods_First_Banc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First_Banc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8812DADB234BAC1D00003569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442CC13950371CA1B9C87C3 /* Pods_First_Banc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8812DAEF234BAC1F00003569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8812DAFA234BAC1F00003569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FE2420699936F3C95437DF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1641DB18FE38A5A78BBD7CB /* Pods_First_Banc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		790B8AB4B13BC8BBEF55DD87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				943491E54D53436CBE0CA6A0 /* Pods-First Banc.debug.xcconfig */,
+				6FDE85749169A5CCF1658CD7 /* Pods-First Banc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8812DAD5234BAC1D00003569 = {
+			isa = PBXGroup;
+			children = (
+				8812DAE0234BAC1D00003569 /* First Banc */,
+				8812DAF5234BAC1F00003569 /* First BancTests */,
+				8812DB00234BAC1F00003569 /* First BancUITests */,
+				8812DADF234BAC1D00003569 /* Products */,
+				790B8AB4B13BC8BBEF55DD87 /* Pods */,
+				5FE2420699936F3C95437DF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8812DADF234BAC1D00003569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8812DADE234BAC1D00003569 /* First Banc.app */,
+				8812DAF2234BAC1F00003569 /* First BancTests.xctest */,
+				8812DAFD234BAC1F00003569 /* First BancUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8812DAE0234BAC1D00003569 /* First Banc */ = {
+			isa = PBXGroup;
+			children = (
+				8812DB0F234BD30E00003569 /* Modules */,
+				8812DAE1234BAC1D00003569 /* AppDelegate.swift */,
+				8812DAE3234BAC1D00003569 /* ViewController.swift */,
+				8812DAE5234BAC1D00003569 /* Main.storyboard */,
+				8812DAE8234BAC1F00003569 /* Assets.xcassets */,
+				8812DAEA234BAC1F00003569 /* LaunchScreen.storyboard */,
+				8812DAED234BAC1F00003569 /* Info.plist */,
+			);
+			path = "First Banc";
+			sourceTree = "<group>";
+		};
+		8812DAF5234BAC1F00003569 /* First BancTests */ = {
+			isa = PBXGroup;
+			children = (
+				8812DAF6234BAC1F00003569 /* First_BancTests.swift */,
+				8812DAF8234BAC1F00003569 /* Info.plist */,
+			);
+			path = "First BancTests";
+			sourceTree = "<group>";
+		};
+		8812DB00234BAC1F00003569 /* First BancUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8812DB01234BAC1F00003569 /* First_BancUITests.swift */,
+				8812DB03234BAC1F00003569 /* Info.plist */,
+			);
+			path = "First BancUITests";
+			sourceTree = "<group>";
+		};
+		8812DB0F234BD30E00003569 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8812DB1A234BF87800003569 /* Home */,
+				8812DB10234BD32400003569 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8812DB10234BD32400003569 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8812DB11234BD33500003569 /* Models */,
+				8812DB13234BD34D00003569 /* ViewModel */,
+				8812DB12234BD34200003569 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8812DB11234BD33500003569 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8812DB12234BD34200003569 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8812DB14234BD3E200003569 /* Login.storyboard */,
+				8812DB16234BD41300003569 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8812DB13234BD34D00003569 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8812DB18234BD43D00003569 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8812DB1A234BF87800003569 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8812DB1B234BF88E00003569 /* Models */,
+				8812DB1D234BF8A600003569 /* ViewModel */,
+				8812DB1C234BF89D00003569 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8812DB1B234BF88E00003569 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8812DB1C234BF89D00003569 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8812DB1E234BF91600003569 /* Home.storyboard */,
+				8812DB20234BF99200003569 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8812DB1D234BF8A600003569 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8812DB22234BFA5B00003569 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8812DADD234BAC1D00003569 /* First Banc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8812DB06234BAC1F00003569 /* Build configuration list for PBXNativeTarget "First Banc" */;
+			buildPhases = (
+				0B834FA8D46E96CF6D3DA2FF /* [CP] Check Pods Manifest.lock */,
+				8812DADA234BAC1D00003569 /* Sources */,
+				8812DADB234BAC1D00003569 /* Frameworks */,
+				8812DADC234BAC1D00003569 /* Resources */,
+				F48974364DB0D7098E0CEBAE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "First Banc";
+			productName = "First Banc";
+			productReference = 8812DADE234BAC1D00003569 /* First Banc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8812DAF1234BAC1F00003569 /* First BancTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8812DB09234BAC1F00003569 /* Build configuration list for PBXNativeTarget "First BancTests" */;
+			buildPhases = (
+				8812DAEE234BAC1F00003569 /* Sources */,
+				8812DAEF234BAC1F00003569 /* Frameworks */,
+				8812DAF0234BAC1F00003569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8812DAF4234BAC1F00003569 /* PBXTargetDependency */,
+			);
+			name = "First BancTests";
+			productName = "First BancTests";
+			productReference = 8812DAF2234BAC1F00003569 /* First BancTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8812DAFC234BAC1F00003569 /* First BancUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8812DB0C234BAC1F00003569 /* Build configuration list for PBXNativeTarget "First BancUITests" */;
+			buildPhases = (
+				8812DAF9234BAC1F00003569 /* Sources */,
+				8812DAFA234BAC1F00003569 /* Frameworks */,
+				8812DAFB234BAC1F00003569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8812DAFF234BAC1F00003569 /* PBXTargetDependency */,
+			);
+			name = "First BancUITests";
+			productName = "First BancUITests";
+			productReference = 8812DAFD234BAC1F00003569 /* First BancUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8812DAD6234BAC1D00003569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Wigilabs;
+				TargetAttributes = {
+					8812DADD234BAC1D00003569 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					8812DAF1234BAC1F00003569 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8812DADD234BAC1D00003569;
+					};
+					8812DAFC234BAC1F00003569 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8812DADD234BAC1D00003569;
+					};
+				};
+			};
+			buildConfigurationList = 8812DAD9234BAC1D00003569 /* Build configuration list for PBXProject "First Banc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8812DAD5234BAC1D00003569;
+			productRefGroup = 8812DADF234BAC1D00003569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8812DADD234BAC1D00003569 /* First Banc */,
+				8812DAF1234BAC1F00003569 /* First BancTests */,
+				8812DAFC234BAC1F00003569 /* First BancUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8812DADC234BAC1D00003569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8812DB15234BD3E200003569 /* Login.storyboard in Resources */,
+				8812DB1F234BF91600003569 /* Home.storyboard in Resources */,
+				8812DAEC234BAC1F00003569 /* LaunchScreen.storyboard in Resources */,
+				8812DAE9234BAC1F00003569 /* Assets.xcassets in Resources */,
+				8812DAE7234BAC1D00003569 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8812DAF0234BAC1F00003569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8812DAFB234BAC1F00003569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B834FA8D46E96CF6D3DA2FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First Banc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F48974364DB0D7098E0CEBAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-First Banc/Pods-First Banc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-First Banc/Pods-First Banc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First Banc/Pods-First Banc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8812DADA234BAC1D00003569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8812DB21234BF99200003569 /* HomeViewController.swift in Sources */,
+				8812DB19234BD43D00003569 /* LoginViewModel.swift in Sources */,
+				8812DB17234BD41300003569 /* LoginViewController.swift in Sources */,
+				8812DAE4234BAC1D00003569 /* ViewController.swift in Sources */,
+				8812DB23234BFA5B00003569 /* HomeViewModel.swift in Sources */,
+				8812DAE2234BAC1D00003569 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8812DAEE234BAC1F00003569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8812DAF7234BAC1F00003569 /* First_BancTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8812DAF9234BAC1F00003569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8812DB02234BAC1F00003569 /* First_BancUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8812DAF4234BAC1F00003569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8812DADD234BAC1D00003569 /* First Banc */;
+			targetProxy = 8812DAF3234BAC1F00003569 /* PBXContainerItemProxy */;
+		};
+		8812DAFF234BAC1F00003569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8812DADD234BAC1D00003569 /* First Banc */;
+			targetProxy = 8812DAFE234BAC1F00003569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8812DAE5234BAC1D00003569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8812DAE6234BAC1D00003569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8812DAEA234BAC1F00003569 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8812DAEB234BAC1F00003569 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8812DB04234BAC1F00003569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8812DB05234BAC1F00003569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8812DB07234BAC1F00003569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943491E54D53436CBE0CA6A0 /* Pods-First Banc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5ZTX84J2N;
+				INFOPLIST_FILE = "First Banc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Wigilabs.First-Banc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8812DB08234BAC1F00003569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDE85749169A5CCF1658CD7 /* Pods-First Banc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5ZTX84J2N;
+				INFOPLIST_FILE = "First Banc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Wigilabs.First-Banc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8812DB0A234BAC1F00003569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5ZTX84J2N;
+				INFOPLIST_FILE = "First BancTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Wigilabs.First-BancTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/First Banc.app/First Banc";
+			};
+			name = Debug;
+		};
+		8812DB0B234BAC1F00003569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5ZTX84J2N;
+				INFOPLIST_FILE = "First BancTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Wigilabs.First-BancTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/First Banc.app/First Banc";
+			};
+			name = Release;
+		};
+		8812DB0D234BAC1F00003569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5ZTX84J2N;
+				INFOPLIST_FILE = "First BancUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Wigilabs.First-BancUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "First Banc";
+			};
+			name = Debug;
+		};
+		8812DB0E234BAC1F00003569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5ZTX84J2N;
+				INFOPLIST_FILE = "First BancUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Wigilabs.First-BancUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "First Banc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8812DAD9234BAC1D00003569 /* Build configuration list for PBXProject "First Banc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8812DB04234BAC1F00003569 /* Debug */,
+				8812DB05234BAC1F00003569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8812DB06234BAC1F00003569 /* Build configuration list for PBXNativeTarget "First Banc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8812DB07234BAC1F00003569 /* Debug */,
+				8812DB08234BAC1F00003569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8812DB09234BAC1F00003569 /* Build configuration list for PBXNativeTarget "First BancTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8812DB0A234BAC1F00003569 /* Debug */,
+				8812DB0B234BAC1F00003569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8812DB0C234BAC1F00003569 /* Build configuration list for PBXNativeTarget "First BancUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8812DB0D234BAC1F00003569 /* Debug */,
+				8812DB0E234BAC1F00003569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8812DAD6234BAC1D00003569 /* Project object */;
+}
