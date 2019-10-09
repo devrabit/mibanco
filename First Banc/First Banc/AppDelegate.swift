@@ -18,12 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared.enable = true
         
-        let storyboard = UIStoryboard(name: "Login", bundle: nil)
-        
-        let initialViewController = storyboard.instantiateViewController(withIdentifier: "init")
-        
-        self.window?.rootViewController = initialViewController
-        self.window?.makeKeyAndVisible()
+        let storyboard:UIStoryboard = UIStoryboard(name: "Login", bundle: nil)
+        let navigationController:UINavigationController = storyboard.instantiateInitialViewController() as! UINavigationController
+        let rootViewController = storyboard.instantiateViewController(withIdentifier: "init") as! LoginViewController
+        navigationController.viewControllers = [rootViewController]
+        self.window?.rootViewController = navigationController
         // Override point for customization after application launch.
         return true
     }

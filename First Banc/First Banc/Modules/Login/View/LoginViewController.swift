@@ -16,7 +16,11 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func goToHome(_ sender: Any) {
+        let vc=HomeViewController.instantiate()
+        self.navigationController?.pushViewController(HomeViewController.instantiate(), animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

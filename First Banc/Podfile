@@ -16,4 +16,5 @@ target 'First Banc' do
     pod 'SPLarkController'
     pod 'SwiftyUserDefaults','3.0.1'
     pod 'PMSuperButton'
+    pod 'RSSelectionMenu'
 end

@@ -21,6 +21,20 @@
 		8812DB1F234BF91600003569 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8812DB1E234BF91600003569 /* Home.storyboard */; };
 		8812DB21234BF99200003569 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812DB20234BF99200003569 /* HomeViewController.swift */; };
 		8812DB23234BFA5B00003569 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812DB22234BFA5B00003569 /* HomeViewModel.swift */; };
+		8814AD71234CFB6B00E35B9E /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814AD70234CFB6B00E35B9E /* Weather.storyboard */; };
+		8814AD73234CFBCB00E35B9E /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD72234CFBCB00E35B9E /* WeatherViewController.swift */; };
+		8814AD75234CFBED00E35B9E /*  WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD74234CFBED00E35B9E /*  WeatherViewModel.swift */; };
+		8814AD78234CFC6D00E35B9E /* Accounts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814AD77234CFC6D00E35B9E /* Accounts.storyboard */; };
+		8814AD7D234CFD5300E35B9E /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD7C234CFD5300E35B9E /* AccountsViewController.swift */; };
+		8814AD7F234CFD7E00E35B9E /* AccountsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD7E234CFD7E00E35B9E /* AccountsViewModel.swift */; };
+		8814AD85234CFF2D00E35B9E /* Pay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814AD84234CFF2D00E35B9E /* Pay.storyboard */; };
+		8814AD87234CFFEA00E35B9E /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD86234CFFEA00E35B9E /* PayViewController.swift */; };
+		8814AD89234D007300E35B9E /* PayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD88234D007300E35B9E /* PayViewModel.swift */; };
+		8814AD8F234D019200E35B9E /* ReceiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD8E234D019200E35B9E /* ReceiveViewModel.swift */; };
+		8814AD91234D024D00E35B9E /* Receive.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814AD90234D024D00E35B9E /* Receive.storyboard */; };
+		8814AD93234D028700E35B9E /* ReceiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814AD92234D028700E35B9E /* ReceiveViewController.swift */; };
+		88F110F3234D41670005F2E0 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F110F2234D41670005F2E0 /* AccountTableViewCell.swift */; };
+		88F110F5234D682C0005F2E0 /* PayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F110F4234D682C0005F2E0 /* PayTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +75,20 @@
 		8812DB1E234BF91600003569 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		8812DB20234BF99200003569 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8812DB22234BFA5B00003569 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8814AD70234CFB6B00E35B9E /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
+		8814AD72234CFBCB00E35B9E /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		8814AD74234CFBED00E35B9E /*  WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " WeatherViewModel.swift"; sourceTree = "<group>"; };
+		8814AD77234CFC6D00E35B9E /* Accounts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Accounts.storyboard; sourceTree = "<group>"; };
+		8814AD7C234CFD5300E35B9E /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		8814AD7E234CFD7E00E35B9E /* AccountsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewModel.swift; sourceTree = "<group>"; };
+		8814AD84234CFF2D00E35B9E /* Pay.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pay.storyboard; sourceTree = "<group>"; };
+		8814AD86234CFFEA00E35B9E /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		8814AD88234D007300E35B9E /* PayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewModel.swift; sourceTree = "<group>"; };
+		8814AD8E234D019200E35B9E /* ReceiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveViewModel.swift; sourceTree = "<group>"; };
+		8814AD90234D024D00E35B9E /* Receive.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Receive.storyboard; sourceTree = "<group>"; };
+		8814AD92234D028700E35B9E /* ReceiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveViewController.swift; sourceTree = "<group>"; };
+		88F110F2234D41670005F2E0 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		88F110F4234D682C0005F2E0 /* PayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayTableViewCell.swift; sourceTree = "<group>"; };
 		943491E54D53436CBE0CA6A0 /* Pods-First Banc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First Banc.debug.xcconfig"; path = "Target Support Files/Pods-First Banc/Pods-First Banc.debug.xcconfig"; sourceTree = "<group>"; };
 		D1641DB18FE38A5A78BBD7CB /* Pods_First_Banc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First_Banc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -165,6 +193,10 @@
 		8812DB0F234BD30E00003569 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				8814AD8A234D00BE00E35B9E /* Receive */,
+				8814AD80234CFDDF00E35B9E /* Pay */,
+				8814AD76234CFC2300E35B9E /* Accounts */,
+				8814AD6B234CFB0000E35B9E /* Weather */,
 				8812DB1A234BF87800003569 /* Home */,
 				8812DB10234BD32400003569 /* Login */,
 			);
@@ -237,6 +269,144 @@
 				8812DB22234BFA5B00003569 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8814AD6B234CFB0000E35B9E /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD6C234CFB1600E35B9E /* Models */,
+				8814AD6D234CFB1F00E35B9E /* ViewModel */,
+				8814AD6E234CFB3700E35B9E /* View */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		8814AD6C234CFB1600E35B9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8814AD6D234CFB1F00E35B9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD74234CFBED00E35B9E /*  WeatherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8814AD6E234CFB3700E35B9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD70234CFB6B00E35B9E /* Weather.storyboard */,
+				8814AD72234CFBCB00E35B9E /* WeatherViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8814AD76234CFC2300E35B9E /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD79234CFC9000E35B9E /* Models */,
+				8814AD7A234CFCDA00E35B9E /* ViewModel */,
+				8814AD7B234CFCEB00E35B9E /* View */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		8814AD79234CFC9000E35B9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8814AD7A234CFCDA00E35B9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD7E234CFD7E00E35B9E /* AccountsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8814AD7B234CFCEB00E35B9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD77234CFC6D00E35B9E /* Accounts.storyboard */,
+				8814AD7C234CFD5300E35B9E /* AccountsViewController.swift */,
+				88F110F2234D41670005F2E0 /* AccountTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8814AD80234CFDDF00E35B9E /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD81234CFE9F00E35B9E /* Models */,
+				8814AD82234CFEB000E35B9E /* ViewModel */,
+				8814AD83234CFEBA00E35B9E /* View */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		8814AD81234CFE9F00E35B9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8814AD82234CFEB000E35B9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD88234D007300E35B9E /* PayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8814AD83234CFEBA00E35B9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD84234CFF2D00E35B9E /* Pay.storyboard */,
+				8814AD86234CFFEA00E35B9E /* PayViewController.swift */,
+				88F110F4234D682C0005F2E0 /* PayTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8814AD8A234D00BE00E35B9E /* Receive */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD8B234D00C900E35B9E /* Models */,
+				8814AD8C234D00D300E35B9E /* ViewModel */,
+				8814AD8D234D00E100E35B9E /* View */,
+			);
+			path = Receive;
+			sourceTree = "<group>";
+		};
+		8814AD8B234D00C900E35B9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8814AD8C234D00D300E35B9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD8E234D019200E35B9E /* ReceiveViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8814AD8D234D00E100E35B9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8814AD90234D024D00E35B9E /* Receive.storyboard */,
+				8814AD92234D028700E35B9E /* ReceiveViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,7 +519,11 @@
 				8812DB1F234BF91600003569 /* Home.storyboard in Resources */,
 				8812DAEC234BAC1F00003569 /* LaunchScreen.storyboard in Resources */,
 				8812DAE9234BAC1F00003569 /* Assets.xcassets in Resources */,
+				8814AD91234D024D00E35B9E /* Receive.storyboard in Resources */,
 				8812DAE7234BAC1D00003569 /* Main.storyboard in Resources */,
+				8814AD78234CFC6D00E35B9E /* Accounts.storyboard in Resources */,
+				8814AD71234CFB6B00E35B9E /* Weather.storyboard in Resources */,
+				8814AD85234CFF2D00E35B9E /* Pay.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,11 +590,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8814AD7F234CFD7E00E35B9E /* AccountsViewModel.swift in Sources */,
+				8814AD8F234D019200E35B9E /* ReceiveViewModel.swift in Sources */,
 				8812DB21234BF99200003569 /* HomeViewController.swift in Sources */,
+				88F110F3234D41670005F2E0 /* AccountTableViewCell.swift in Sources */,
 				8812DB19234BD43D00003569 /* LoginViewModel.swift in Sources */,
+				8814AD93234D028700E35B9E /* ReceiveViewController.swift in Sources */,
 				8812DB17234BD41300003569 /* LoginViewController.swift in Sources */,
 				8812DAE4234BAC1D00003569 /* ViewController.swift in Sources */,
+				8814AD73234CFBCB00E35B9E /* WeatherViewController.swift in Sources */,
 				8812DB23234BFA5B00003569 /* HomeViewModel.swift in Sources */,
+				8814AD89234D007300E35B9E /* PayViewModel.swift in Sources */,
+				8814AD75234CFBED00E35B9E /*  WeatherViewModel.swift in Sources */,
+				8814AD87234CFFEA00E35B9E /* PayViewController.swift in Sources */,
+				8814AD7D234CFD5300E35B9E /* AccountsViewController.swift in Sources */,
+				88F110F5234D682C0005F2E0 /* PayTableViewCell.swift in Sources */,
 				8812DAE2234BAC1D00003569 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
